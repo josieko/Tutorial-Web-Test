@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Syne', sans-serif;
+    color: #efd7c2;
+    background-image: url("reef.jpeg");
+
+  }
+
+  
+
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    background: linear-gradient(#d1dfe62a 20%, #93c6df36, #81c0e01b, #4da7d400);
+  }
+ 
+
+  h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 0;
+    font-style: bold;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  /* Links */
+  a {
+    color: #efbb8b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  u {
+    font-style: bold;
+  }
+  
+  h4 {
+    margin-top: 10px;
+  }
+ 
+  .flex-container {
+    display: flex;
+    flex-direction: column; /* This is the default, but you can specify it explicitly */
+    justify-content:flex-end; /* Space items evenly along the main axis */
+    align-items:normal;
+  }
